@@ -1,0 +1,293 @@
+.tab-wrapper {
+    background-color: #faf9f8;
+}
+
+.tab-wrapper .nav-item {
+    width: 50%;
+    text-align: center;
+}
+
+.tab-wrapper .nav {
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.tab-wrapper .nav-link {
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.tab-wrapper .nav-pills .nav-link.active {
+    background-color: red;
+}
+
+.tab-img {
+    text-align: center;
+    border-radius: 50%;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.tab-img img {
+    padding: 20px;
+    background-color: lightgreen;
+    border: 5px solid #fff;
+}
+
+.text-red {
+    color: red;
+}
+
+.bg-skin {
+    background-color: antiquewhite !important;
+}
+
+.bg-voilet {
+    background-color: #B148D2 !important;
+}
+
+.bg-grey {
+    background-color: lightgrey !important;
+}
+
+.bg-pink {
+    background-color: #F75985 !important;
+}
+
+.item p {
+    line-height: 1.0;
+}
+
+.item span {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.testimonial h2:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: #fff;
+    left: 28%;
+    top: 50%;
+    position: absolute;
+}
+
+.testimonial h2:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: #fff;
+    right: 28%;
+    top: 50%;
+    position: absolute;
+}
+
+.author img {
+    width: 90px !important;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: inline-block !important;
+}
+
+.author-info {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin: 20px;
+}
+
+
+.author {
+    margin: 50px 0 30px;
+}
+
+.author-info hr {
+    border-color: red;
+    border-width: medium;
+    width: 40%;
+    float: left;
+    margin: 10px 0;
+}
+
+button.owl-dot.active {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffff;
+    padding: 0;
+    height: 6px;
+    width: 6px;
+    margin: 3px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #ffff;
+    padding: 0;
+    height: 12px;
+    width: 12px;
+    margin: 0 10px;
+}
+
+.topbar {
+    padding: 8px 70px;
+    color: #ffff;
+    background-color: grey;
+}
+
+.topbar a {
+    color: #ffff;
+}
+
+.topbar span {
+    padding: 0 20px;
+}
+
+.topbar i {
+    margin: 0 5px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.logo img {
+    height: 90px;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 5px 25px;
+    border-right: 1px solid;
+}
+
+header .navbar {
+    padding: 0;
+}
+
+.whyus h2 {
+    color: red;
+}
+
+.whyus h2:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: red;
+    left: 28%;
+    top: 50%;
+    position: absolute;
+}
+
+.whyus h2:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: red;
+    right: 28%;
+    top: 50%;
+    position: absolute;
+}
+
+.whyus hr {
+    width: 60%;
+    border-color: grey;
+}
+
+.whyus span {
+    color: grey;
+    font-size: 20px;
+}
+
+.whyus p {
+    color: grey;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+@media only screen and (max-width: 600px) {
+    .tab-wrapper .nav-item {
+        width: 100%;
+        margin: 03px 0;
+    }
+
+    .tab-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .item span {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 13px;
+    }
+
+    .item p {
+        line-height: 1.5;
+    }
+
+    .author {
+        margin: 30px 0 0px;
+    }
+
+    .testimonial h2:before {
+        width: 50px;
+        left: 7%;
+    }
+
+    .testimonial h2:after {
+        width: 50px;
+        right: 7%;
+    }
+
+    section.testimonial.bg-dark {
+        padding-bottom: 30px;
+    }
+
+    .topbar {
+        padding: 0;
+    }
+
+    .topbar span {
+        display: block;
+    }
+
+    .whyus h2:before {
+        width: 50px;
+        left: 7%;
+    }
+
+    .whyus h2:after {
+        width: 50px;
+        right: 7%;
+    }
+
+
+    @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+        .tab-img{
+            width: 100%;
+        }
+    }
+    }
+    @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+        .tab-img{
+            width: 100%;
+        }
+    }
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .tab-img{
+        width: 38%;
+        margin: 0 auto;
+    }
+}
